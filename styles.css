@@ -160,6 +160,7 @@ button {
   padding: 20px 30px;
   color: white;
   border-radius: 15px;
+  text-align: center;
   background: rgb(255, 255, 255);
   background: linear-gradient(
     92.49deg,
@@ -191,5 +192,9 @@ button {
   }
   .card {
     flex-direction: column;
+  }
+  #histories {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 2rem;
   }
 }
