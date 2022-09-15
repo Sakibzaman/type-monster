@@ -1,5 +1,5 @@
 body {
-  margin: 4rem 10rem;
+  margin: 5rem 10rem;
 }
 h1 {
   font-size: 2.5vw;
@@ -7,9 +7,13 @@ h1 {
 p {
   font-size: 1.5vw;
 }
+.blog-title h1 {
+  text-align: center;
+  font-size: 3vw;
+}
 .blog-card {
-  padding: 15px;
-  margin: 10px;
+  padding: 25px;
+  margin: 20px;
   /* border: 1px solid grey; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
